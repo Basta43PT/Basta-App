@@ -4,7 +4,6 @@ import { Cash } from "./cash/cash";
 import { Menu } from "./menu";
 import React, { useState, useEffect } from "react";
 import { CashHistory } from "./cash_history/cash_history";
-import { AutoExcel } from "./auto/auto_excel";
 import { AddNewItem } from "./AddNewItem";
 import styles from "./App.css";
 import {
@@ -94,8 +93,6 @@ function App() {
       console.error(e, "app:error");
     }
   }, []);
-
-  <AutoExcel cash={cash} />;
 
   return (
     <Router>
