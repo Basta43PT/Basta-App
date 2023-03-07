@@ -1,0 +1,261 @@
+{
+  "product": [
+    {
+      "id": 0,
+      "name": "גולדסטאר",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 1,
+      "name": "הייניקן",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 2,
+      "name": "קרלסברג",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 3,
+      "name": "סטלה",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 4,
+      "name": "בנדיקטינר",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+
+    },
+    {
+      "id": 5,
+      "name": "קורונה",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+
+    },
+    {
+      "id": 6,
+      "name": "בריזר",
+      "img": "#",
+      "price": 15,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 7,
+      "name": "קסטיל",
+      "img": "#",
+      "price": 20,
+      "amount": 0,
+      "categoryName": "Beers"
+    },
+    {
+      "id": 8,
+      "name": "לימון-עראק",
+      "img": "#",
+      "price": 20,
+      "amount": 0,
+      "categoryName": "Chasers"
+    },
+    {
+      "id": 9,
+      "name": "וודקה-אקסל",
+      "img": "#",
+      "price": 20,
+      "amount": 0,
+      "categoryName": "Chasers"
+    },
+    {
+      "id": 10,
+      "name": "וויסקי-קולה",
+      "img": "#",
+      "price": 20,
+      "amount": 0,
+      "categoryName": "Chasers"
+    },
+    {
+      "id": 11,
+      "name": "וויסקי",
+      "img": "#",
+      "price": 10,
+      "amount": 0,
+      "categoryName": "Chasers"
+    },
+    {
+      "id": 12,
+      "name": "עראק",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Chasers"
+    },
+    {
+      "id": 13,
+      "name": "Cola",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 14,
+      "name": "זירו",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 15,
+      "name": "ספרייט",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 16,
+      "name": "דיאט ספרייט",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 17,
+      "name": "פאנטה",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 18,
+      "name": "סודה",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 19,
+      "name": "אקסל",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    },
+    {
+      "id": 20,
+      "name": "מים",
+      "img": "#",
+      "price": 5,
+      "amount": 0,
+      "categoryName": "Soft Drinks"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "userName": "יאיר",
+      "password": "10"
+    },
+    {
+      "id": 1,
+      "userName": "שי",
+      "password": "032324535"
+    },
+    {
+      "id": 2,
+      "userName": "רועי",
+      "password": "206263675"
+    },
+    {
+      "id": 3,
+      "userName": "נטע",
+      "password": "313363939"
+    },
+    {
+      "id": 4,
+      "userName": "שיר",
+      "password": "322606732"
+    },
+    {
+      "id": 5,
+      "userName": "בר",
+      "password": "313374571"
+    },
+    {
+      "id": 6,
+      "userName": "עידן",
+      "password": "209127349"
+    },
+    {
+      "id": 7,
+      "userName": "פרי",
+      "password": "318602844"
+    },
+    {
+      "id": 8,
+      "userName": "דניאל",
+      "password": "209413533"
+    },
+    {
+      "id": 9,
+      "userName": "בר",
+      "password": "209088343"
+    },
+    {
+      "id": 10,
+      "userName": "מיכל",
+      "password": "301438479"
+    },
+    {
+      "id": 11,
+      "userName": "נועם",
+      "password": "316281070"
+    },
+    {
+      "id": 12,
+      "userName": "מוריה",
+      "password": "315144923"
+    },
+    {
+      "id": 13,
+      "userName": "כרמל",
+      "password": "207486127"
+    },
+    {
+      "id": 14,
+      "userName": "ליהי",
+      "password": "301438479"
+    },
+    {
+      "id": 15,
+      "userName": "יובל",
+      "password": "322632837"
+    },
+    {
+      "id": 16,
+      "userName": "ירין",
+      "password": "10"
+    }
+  ]
+}
