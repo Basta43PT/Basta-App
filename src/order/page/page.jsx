@@ -101,6 +101,7 @@ export function Page({ data, inventory, transactions }) {
         <div className={styles.categoreList}>
           {newData.map((category) => (
             <Category
+              key={category.categoryName}
               categoryName={category.categoryName}
               items={category.items}
               add={add}

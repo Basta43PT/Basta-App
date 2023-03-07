@@ -10,6 +10,7 @@ export function Category({ categoryName, items, add, sub, cart }) {
         {items.map((item, index) => (
           <Item
             // key={index}
+            key={item.id}
             id={item.id}
             name={item.name}
             price={item.price}
