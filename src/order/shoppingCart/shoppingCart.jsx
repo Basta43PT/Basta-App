@@ -28,18 +28,16 @@ export function ShoppingCart({ onClick, cart, sub, add, reset }) {
         </h5>
       )}
       <div className={styles.shoppingCardInline}>
-        <ui className>
-          {cart.map((cartItem) => (
-            <ShoppingCardInline
-              id={cartItem.id}
-              name={cartItem.name}
-              price={cartItem.price}
-              count={cartItem.count}
-              sub={sub}
-              add={add}
-            />
-          ))}
-        </ui>
+        {cart.map((cartItem) => (
+          <ShoppingCardInline
+            id={cartItem.id}
+            name={cartItem.name}
+            price={cartItem.price}
+            count={cartItem.count}
+            sub={sub}
+            add={add}
+          />
+        ))}
         <div className={styles.buttonWarp}>
           <button
             className={styles.button}
