@@ -18,7 +18,9 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "react-refresh": "^0.14.0"
+
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-refresh": "^0.14.0"
   }
 }
