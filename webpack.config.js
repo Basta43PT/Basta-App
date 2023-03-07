@@ -1,28 +1,29 @@
-const path = require("path");
+const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
-  output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
-  },
+  // other configuration options
   module: {
     rules: [
+      // other rules
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
+        use: [
+          // other loaders
+          {
+            loader: require.resolve("babel-loader"),
+            options: {
+              // other options
+              plugins: [require.resolve("react-refresh/babel")],
+            },
           },
-        },
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        ],
+        // other options
       },
     ],
   },
-  devtool: "source-map",
+  plugins: [
+    // other plugins
+    new ReactRefreshWebpackPlugin(),
+  ],
+  // other configuration options
 };
