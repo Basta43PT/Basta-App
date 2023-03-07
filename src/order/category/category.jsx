@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./category.module.css";
 import { Item } from "../item";
 

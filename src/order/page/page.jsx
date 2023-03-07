@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Link } from "react-router-dom";
+import React from "react";
 import { Category } from "../category";
 import { ShoppingCart } from "../shoppingCart";
 import { useCart } from "../../useCart.js";

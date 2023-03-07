@@ -5,14 +5,7 @@ import { Menu } from "./menu";
 import React, { useState, useEffect } from "react";
 import { CashHistory } from "./cash_history/cash_history";
 import { AddNewItem } from "./AddNewItem/AddNewItem";
-import styles from "./App.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  useRouteMatch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 

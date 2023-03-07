@@ -1,5 +1,5 @@
 import styles from "./menu.module.css";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link, useMatch } from "react-router-dom";
 
 export function Menu({ label, to, activeOnlyWhenExact }) {
