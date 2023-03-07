@@ -1,1 +1,1 @@
-export { default as AddPopup } from "./AddPopup";
+export { AddPopup } from "./AddPopup";

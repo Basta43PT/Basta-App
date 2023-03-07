@@ -4,7 +4,7 @@ import { Cash } from "./cash/cash";
 import { Menu } from "./menu";
 import React, { useState, useEffect } from "react";
 import { CashHistory } from "./cash_history/cash_history";
-import { AddNewItem } from "./AddNewItem";
+import { AddNewItem } from "./AddNewItem/AddNewItem";
 import styles from "./App.css";
 import {
   BrowserRouter as Router,
@@ -51,7 +51,7 @@ function App() {
   useEffect(() => {
     try {
       fetch(
-        "https://raw.githubusercontent.com/Basta43PT/CRM_Test/main/crm/db.json"
+        "https://raw.githubusercontent.com/Basta43PT/Basta-App/main/db.json"
       )
         .then((res) => res.json())
         .then((res) => {

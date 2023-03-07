@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./AddPopup.module.css";
 
-function AddPopup(props) {
+export function AddPopup(props) {
   useEffect(() => {
     function handleClickOutside(event) {
       console.log("clicked outside");
