@@ -16,7 +16,7 @@ WORKDIR /app
 
 COPY package.json package-lock.json ./
 
-RUN npm ci
+RUN npm install
 
 RUN npm install -D @swc/cli @swc/core
 
